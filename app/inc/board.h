@@ -67,32 +67,42 @@ extern "C" {
 #define BTN_A_HOVER		GPIO_PIN_SET
 
 /*************************************************************/
-#define SNS_TICKET_NOT_TAKEN		SNS_A1_Pin
-#define	SNS_TICKET_NOT_TAKEN_PORT	SNS_A1_GPIO_Port
+#define SNS_TICKET_NOT_TAKEN		       SNS_A1_Pin
+#define	SNS_TICKET_NOT_TAKEN_PORT		   SNS_A1_GPIO_Port
+#define SNS_TICKET_NOT_TAKEN_ACTIVATED     GPIO_PIN_RESET
 
-#define SNS_TICKET_PICKED_UP		SNS_A2_Pin
-#define SNS_TICKET_PICKED_UP_PORT	SNS_A2_GPIO_Port
+#define SNS_TICKET_PICKED_UP	           SNS_A2_Pin
+#define SNS_TICKET_PICKED_UP_PORT          SNS_A2_GPIO_Port
+#define SNS_TICKET_PICKED_UP_ACTIVATED     GPIO_PIN_RESET
 
-#define SNS_MUY_CARO				SNS_A3_Pin
-#define SNS_MUY_CARO_PORT			SNS_A3_GPIO_Port
+#define SNS_MUY_CARO				       SNS_A3_Pin
+#define SNS_MUY_CARO_PORT			       SNS_A3_GPIO_Port
+#define SNS_MUY_CARO_ACTIVATED             GPIO_PIN_RESET
 
-#define SNS_CAR_ENTERED				SNS_D9_Pin
-#define SNS_CAR_ENTERED_PORT		SNS_D9_GPIO_Port
+#define SNS_CAR_ENTERED				       SNS_D9_Pin
+#define SNS_CAR_ENTERED_PORT	       	   SNS_D9_GPIO_Port
+#define SNS_CAR_ENTERED_ACTIVATED          GPIO_PIN_RESET
 
-#define SNS_BARRIER_UP				SNS_D7_Pin
-#define SNS_BARRIER_UP_PORT			SNS_D7_GPIO_Port
 
-#define SNS_ENTRYING				SNS_D8_Pin
-#define SNS_ENTRYING_PORT			SNS_D8_GPIO_Port
+#define SNS_BARRIER_UP				        SNS_D7_Pin
+#define SNS_BARRIER_UP_PORT		            SNS_D7_GPIO_Port
+#define SNS_BARRIER_UP_ACTIVATED            GPIO_PIN_RESET
 
-#define SNS_CAR_IN					SNS_D2_Pin
-#define SNS_CAR_IN_PORT				SNS_D2_GPIO_Port
+#define SNS_ENTRYING				        SNS_D8_Pin
+#define SNS_ENTRYING_PORT			        SNS_D8_GPIO_Port
+#define SNS_ENTRYING_ACTIVATED              GPIO_PIN_RESET
 
-#define SNS__PRINT_TICKET_BTN		SNS_D4_Pin
-#define SNS__PRINT_TICKET_BTN_PORT	SNS_D4_GPIO_Port
+#define SNS_CAR_IN					        SNS_D2_Pin
+#define SNS_CAR_IN_PORT					    SNS_D2_GPIO_Port
+#define SNS_CAR_IN_ACTIVATED                GPIO_PIN_RESET
 
-#define BARRIER_DOWN				SNS_D10_Pin
-#define BARRIER_DOWN_PORT			SNS_D10_GPIO_Port
+#define SNS_PRINT_TICKET_BTN		        SNS_D4_Pin
+#define SNS_PRINT_TICKET_BTN_PORT	        SNS_D4_GPIO_Port
+#define SNS_PRINT_TICKET_BTN_ACTIVATED      GPIO_PIN_RESET
+
+#define BARRIER_DOWN						SNS_D10_Pin
+#define BARRIER_DOWN_PORT					SNS_D10_GPIO_Port
+#define BTN_BARRIER_DOWN_ACTIVATED  		GPIO_PIN_RESET
 /**************************************************************/
 
 
